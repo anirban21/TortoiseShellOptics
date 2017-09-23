@@ -72,7 +72,56 @@ body{
   margin: 0;
 }
 /** CSS Styling for Mid Section with Icons*/
+.icons{
+  display: flex;
+  justify-content: center;
+}
+.icons .container{
+  display: flex;
+  justify-content: center;
+}
+.exams, .fittings, .delivery{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  margin: 3rem;
+  height: 8rem;
+  width: 5rem;
+}
+.exams img{
+  width: 3.5rem;
+}
+.fittings img, .delivery img  {
+  width: 5rem;
+}
 /** CSS Styling for Mid Section with About */
+.about{
+  display: flex;
+  justify-content: center;
+}
+.about .container{
+  display: flex;
+  justify-content: flex-start;
+}
+.appointments, .philosophy{
+  display: flex;
+  flex-direction: column;
+  width: 35%;
+  margin-bottom: 5rem;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+.aboutheader{
+  background-color: cadetblue;
+  padding: 0.5rem 1.25rem;
+  font-family: Helvetica;
+  font-weight: bold;
+  font-size: 1rem;
+  margin-bottom: 1rem;
+  color: white;
+}
 /** CSS Styling for Footer*/
 footer{
   display: flex;
