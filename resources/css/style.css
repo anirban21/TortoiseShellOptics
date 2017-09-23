@@ -71,3 +71,20 @@ body{
   padding: 1.5rem 5rem;
   margin: 0;
 }
+/** CSS Styling for Mid Section with Icons*/
+/** CSS Styling for Mid Section with About */
+/** CSS Styling for Footer*/
+footer{
+  display: flex;
+  justify-content: center;
+}
+footer .container{
+  background-color: azure;
+  padding: 4rem;
+}
+footer .container img{
+  height: 1.5rem;
+}
+footer .container span{
+  padding-left: 1rem;
+}
