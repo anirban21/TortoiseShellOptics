@@ -148,4 +148,11 @@ footer .container span{
   .topbanner .container .topsection{
     margin-top: 0px;
   }
+  .whitebox{
+    right: 4rem;
+    margin-right: 2rem;
+    margin-top: 5rem;
+    font-size: 1.33rem;
+    padding: 0.75rem 4rem;
+  }
 }
