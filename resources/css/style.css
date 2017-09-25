@@ -137,3 +137,15 @@ footer .container img{
 footer .container span{
   padding-left: 1rem;
 }
+/** CSS Styling for Tablet Device Screen Sizes */
+@media only screen and (max-width: 1024px){
+  .container{
+    width: 100%;
+  }
+  .topbanner{
+    height: 22rem;
+  }
+  .topbanner .container .topsection{
+    margin-top: 0px;
+  }
+}
