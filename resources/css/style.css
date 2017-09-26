@@ -188,14 +188,34 @@ footer .container span{
     padding: 1rem 0;
     font-size: 1rem;
   }
+  /** CSS Styling for Section with Icons **/
   .icons .container{
     width: 100%;
     margin-top: 3.77rem;
     margin-bottom: 3.77rem;
+    padding: 0;
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
     align-items: center;
   }
+  .icons .container p{
+    font-family: Helvetica;
+    font-size: 0.77rem;
+  }
+  .fittings, .delivery{
+    justify-content: center;
+    padding: 0;
+  }
+  .icons .container .exams, .icons .container .delivery{
+    padding: 0;
+    margin: 0;
+  }
+  .icons .container .fittings{
+    margin-top: 1.54rem;
+    margin-bottom: 1.54rem;
+  }
+  /** CSS Styling for About Container **/
   .about .container{
     width: 100%;
     display: flex;
