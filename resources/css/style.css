@@ -6,7 +6,12 @@ body{
   font-family: Helvetica;
   margin: 0;
 }
+.container{
+  display: flex;
+  width: 960px;
+}
 /* All styling for top banner section*/
+
 .topbanner{
   display: flex;
   justify-content: center;
@@ -17,10 +22,6 @@ body{
   background-repeat: no-repeat;
   background-position: center;
   margin: 0px;
-}
-.container{
-  display: flex;
-  width: 960px;
 }
 .topbanner .container{
   display: flex;
@@ -44,6 +45,9 @@ body{
 .menu span{
   padding-left: 2rem;
   padding-right: 2rem;
+}
+.menu2 span{
+  display: none;
 }
 .logoname{
   display: flex;
@@ -149,10 +153,59 @@ footer .container span{
     margin-top: 0px;
   }
   .whitebox{
-    right: 4rem;
+    position: static;
     margin-right: 2rem;
     margin-top: 5rem;
     font-size: 1.33rem;
     padding: 0.75rem 4rem;
+  }
+}
+/** CSS Styling for Mobile Screen Sizes */
+@media only screen and (max-width: 700px){
+  .topbanner{
+    height: 17rem;
+    background-position: 20%;
+  }
+  .topbanner .container .topsection .logoname span{
+    display: none;
+  }
+  .topbanner .container .topsection .menu span{
+    display: none;
+  }
+  .topbanner .container .topsection .menu2 span{
+    display: inline;
+    padding-right: 2rem;
+  }
+  .whitebox{
+    border: 1px solid black;
+    width: 100%;
+    margin-top: 9rem;
+    margin-right: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    padding: 1rem 0;
+    font-size: 1rem;
+    justify-content: center;
+    text-align: center;
+  }
+  .whitebox p{
+    font-size: 1rem;
+  }
+  .icons .container{
+    width: 100%;
+    margin-top: 3.77rem;
+    margin-bottom: 3.77rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .about .container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .aboutheader{
+    width: 100%;
   }
 }
