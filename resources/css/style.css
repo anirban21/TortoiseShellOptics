@@ -225,4 +225,11 @@ footer .container span{
   .aboutheader{
     width: 100%;
   }
+
+  footer .container{
+    justify-content: center;
+  }
+  footer .container span{
+    display: none;
+  }
 }
